@@ -1,7 +1,7 @@
-# llm-app-review-classifier
-LLM-assisted NLP pipeline to classify app reviews into bugs, feature requests, and praise using Neural-Chat 7B and ML models
-
 # App Review Classifier (LLM + Machine Learning Pipeline)
+
+A scalable pipeline that automates app review classification using LLM-generated labels and traditional ML models, reducing manual labeling cost and enabling fast predictions.
+
 
 ## Key Highlights
 - LLM-assisted labeling using Neural-Chat 7B
@@ -20,6 +20,10 @@ This project classifies Google Play Store app reviews into:
 Instead of manually labeling data, a local LLM (Neural-Chat 7B) generates initial labels, which are then used to train traditional ML models.
 
 ---
+## Why This Matters
+
+Manual labeling of app reviews is expensive and time-consuming.  
+This project demonstrates how LLMs can automate labeling efficiently, enabling scalable and cost-effective solutions.
 
 ## Sample Output
 
@@ -39,18 +43,9 @@ Prediction: Feature Request
 - Logistic Regression Accuracy: 82%  
 - Zero confusion between bug and feature classes  
 - Sarcasm detection: 42.9%
- 
+  
+ ---
 
-  ## Results Visualization
-
-### SVM Confusion Matrix
-![Confusion Matrix](images/SVM.png)
-
-### LG Confusion Matrix
-![Confusion Matrix](images/LG.png)
-### Accuracy Comparison
-![Accuracy Comparison](images/accuracy.png)
-=======
 ## Results Visualization
 
 ### SVM Confusion Matrix
@@ -61,7 +56,7 @@ Prediction: Feature Request
 
 ### Accuracy Comparison
 ![Accuracy](images/accuracy.png)
->>>>>>> 1c6c0be62980f2bf702a4d95e9a1f8168f88373c
+
 
 ---
 
