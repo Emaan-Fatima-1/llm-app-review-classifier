@@ -39,6 +39,7 @@ Prediction: Feature Request
 - Logistic Regression Accuracy: 82%  
 - Zero confusion between bug and feature classes  
 - Sarcasm detection: 42.9%
+ 
 
   ## Results Visualization
 
@@ -49,6 +50,18 @@ Prediction: Feature Request
 ![Confusion Matrix](images/LG.png)
 ### Accuracy Comparison
 ![Accuracy Comparison](images/accuracy.png)
+=======
+## Results Visualization
+
+### SVM Confusion Matrix
+![SVM](images/SVM.png)
+
+### Logistic Regression Confusion Matrix
+![Logistic Regression](images/LG.png)
+
+### Accuracy Comparison
+![Accuracy](images/accuracy.png)
+>>>>>>> 1c6c0be62980f2bf702a4d95e9a1f8168f88373c
 
 ---
 
