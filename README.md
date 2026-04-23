@@ -1,7 +1,7 @@
-# llm-app-review-classifier
-LLM-assisted NLP pipeline to classify app reviews into bugs, feature requests, and praise using Neural-Chat 7B and ML models
-
 # App Review Classifier (LLM + Machine Learning Pipeline)
+
+A scalable pipeline that automates app review classification using LLM-generated labels and traditional ML models, reducing manual labeling cost and enabling fast predictions.
+
 
 ## Key Highlights
 - LLM-assisted labeling using Neural-Chat 7B
