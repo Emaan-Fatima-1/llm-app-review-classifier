@@ -20,6 +20,10 @@ This project classifies Google Play Store app reviews into:
 Instead of manually labeling data, a local LLM (Neural-Chat 7B) generates initial labels, which are then used to train traditional ML models.
 
 ---
+## Why This Matters
+
+Manual labeling of app reviews is expensive and time-consuming.  
+This project demonstrates how LLMs can automate labeling efficiently, enabling scalable and cost-effective solutions.
 
 ## Sample Output
 
@@ -39,6 +43,7 @@ Prediction: Feature Request
 - Logistic Regression Accuracy: 82%  
 - Zero confusion between bug and feature classes  
 - Sarcasm detection: 42.9%
+  
  ---
 
 ## Results Visualization
@@ -51,7 +56,7 @@ Prediction: Feature Request
 
 ### Accuracy Comparison
 ![Accuracy](images/accuracy.png)
->>>>>>> 1c6c0be62980f2bf702a4d95e9a1f8168f88373c
+
 
 ---
 
