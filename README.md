@@ -41,15 +41,6 @@ Prediction: Feature Request
 - Sarcasm detection: 42.9%
  
 
-  ## Results Visualization
-
-### SVM Confusion Matrix
-![Confusion Matrix](images/SVM.png)
-
-### LG Confusion Matrix
-![Confusion Matrix](images/LG.png)
-### Accuracy Comparison
-![Accuracy Comparison](images/accuracy.png)
 =======
 ## Results Visualization
 
